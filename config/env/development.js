@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://mgershko:11091973@dogen.mongohq.com:10042/productCatalog',
+	db: 'mongodb://localhost/productCatalog',
 	app: {
 		title: 'productCatalog - Development Environment'
 	},

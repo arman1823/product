@@ -1,1 +1,11 @@
+  .form-horizontal fieldset .form-group .controls input.ng-invalid.ng-touched {
+    background-color: #FA787E;
+  }
 
+  .form-horizontal fieldset .form-group .controls input.ng-valid.ng-touched {
+    background-color: #78FA89;
+  }
+
+body{
+	background-color: #424242;
+}

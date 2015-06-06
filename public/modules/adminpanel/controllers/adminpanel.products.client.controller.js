@@ -1,7 +1,7 @@
 'use strict';
 
 // Products controller
-angular.module('products').controller('CreateProductController', ['$scope', '$stateParams', '$location', 'Authentication', 'Products', 'Categories', '$http',
+angular.module('adminpanel').controller('CreateProductController', ['$scope', '$stateParams', '$location', 'Authentication', 'Products', 'Categories', '$http',
 	function($scope, $stateParams, $location, Authentication, Products, Categories, $http) {
 		$scope.authentication = Authentication;
 		$scope.selectedCategories= [];
@@ -77,7 +77,7 @@ angular.module('products').controller('CreateProductController', ['$scope', '$st
 	}
 ]);
 
-angular.module('products').controller('EditProductController', ['$scope', '$stateParams', '$location', 'Authentication', 'Products', 'Categories', '$http',
+angular.module('adminpanel').controller('EditProductController', ['$scope', '$stateParams', '$location', 'Authentication', 'Products', 'Categories', '$http',
 	function($scope, $stateParams, $location, Authentication, Products, Categories, $http) {
 		$scope.authentication = Authentication;
 		$scope.selectedCategories= [];
